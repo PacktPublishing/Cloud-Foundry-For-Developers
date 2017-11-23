@@ -1,0 +1,6 @@
+---
+applications:
+- name: simple-http
+  instances: 1
+  env:
+    SIMPLE_HTTP_BP_VERBOSE: false

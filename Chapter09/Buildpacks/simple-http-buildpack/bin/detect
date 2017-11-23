@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# bin/detect <build-dir>
+
+build_dir_path=$(dirname $(dirname $0))
+
+# Check if there is an index.http file, if so, this is the right buildpack
+# The output echo'd here will be used in the application launch summary, which you will
+# later see under 'buildpack: ', after a cf push
+if [ -f $1/index.http ]; then
+  echo "Simple Http Buildpack" && exit 0
+else
+  echo "No index.http file found. This is required for the SimpleHttp buildpack" && exit 1
+fi

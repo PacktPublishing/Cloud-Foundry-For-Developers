@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# If anything goes wrong during compile process, we should just bail
+# and stop the whole buildpack process.
+set -euo pipefail
+
+build_directory=$1
+cache_directory=$2
+
+# Clone in the simple http server into a cache directory
+# But first, remove any existing cloned directory in the cache, if it exists
+rm -rf $cache_directory/simplehttpbp
+git clone https://github.com/Cloud-Foundry-For-Developers/chapter-8.git $cache_directory/simplehttpbp
+
+# Copy the server over into the root directory of our build directory. This will
+# be the root directory of the application.
+cp $cache_directory/simplehttpbp/simple-http-server/run.sh $build_directory/.

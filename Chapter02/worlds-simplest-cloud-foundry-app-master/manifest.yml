@@ -1,0 +1,7 @@
+---
+applications:
+- name: helloworld
+  memory: 128M
+  instances: 1
+  buildpack: staticfile_buildpack
+  random-route: true

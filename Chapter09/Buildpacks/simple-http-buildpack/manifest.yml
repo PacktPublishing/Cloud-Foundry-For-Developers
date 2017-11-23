@@ -1,0 +1,10 @@
+---
+language: simple-http
+exclude_files:
+  - .gitignore
+include_files:
+  - VERSION
+  - bin/compile
+  - bin/detect
+  - bin/release
+  - manifest.yml
