@@ -5,14 +5,22 @@ Cloud Foundry is the open source platform to deploy, run, and scale applications
 
 Cloud Foundry is a developer’s dream. Enabling them to create modern applications that can leverage the latest thinking, techniques and capabilities of the cloud, including:
 
-DevOps
-Application Virtualization
-Infrastructure agnosticism
-Orchestrated containers
-Automation
-Zero downtime upgrades
-A/B deployment
-Quickly scaling applications out or in
+* DevOps
+
+* Application Virtualization
+
+* Infrastructure agnosticism
+
+* Orchestrated containers
+
+* Automation
+
+* Zero downtime upgrades
+
+* A/B deployment
+
+* Quickly scaling applications out or in
+
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
