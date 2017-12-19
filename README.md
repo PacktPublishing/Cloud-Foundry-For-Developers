@@ -48,5 +48,3 @@ This book is intended for application developers, engineers, and architects who 
 
 * [The complete JavaScript developer: MEAN stack zero-to-hero [Video]](https://www.packtpub.com/web-development/complete-javascript-developer-mean-stack-zero-hero-video?utm_source=github&utm_medium=repository&utm_campaign=9781788995771)
 
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
