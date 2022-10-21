@@ -48,3 +48,7 @@ This book is intended for application developers, engineers, and architects who 
 
 * [The complete JavaScript developer: MEAN stack zero-to-hero [Video]](https://www.packtpub.com/web-development/complete-javascript-developer-mean-stack-zero-hero-video?utm_source=github&utm_medium=repository&utm_campaign=9781788995771)
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to download a free PDF copy of this book.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781788391443">https://packt.link/free-ebook/9781788391443 </a> </p>
